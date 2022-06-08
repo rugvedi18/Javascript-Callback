@@ -1,3 +1,5 @@
+// use case - await keyword will ask the execution to wait until the promise resolves, avoids promise chains (.then cycle)
+
 async function foo() {
     try {
         let process = await new Promise((resolve, reject) => {
